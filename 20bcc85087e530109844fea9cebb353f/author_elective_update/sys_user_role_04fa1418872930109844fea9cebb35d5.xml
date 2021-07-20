@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_77754_dxc_sci.customer_information_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>customer_information_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-20 09:42:17</sys_created_on>
+        <sys_id>04fa1418872930109844fea9cebb35d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_77754_dxc_sci.customer_information_user</sys_name>
+        <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+        <sys_update_name>sys_user_role_04fa1418872930109844fea9cebb35d5</sys_update_name>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-20 09:42:17</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</application>
+        <file_path/>
+        <instance_id>7ac404eddb535380536ad5b0cf961979</instance_id>
+        <instance_name>dev64707</instance_name>
+        <name>sys_user_role_04fa1418872930109844fea9cebb35d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_77754_dxc_sci.customer_information_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>customer_information_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>bmorales6@dxc.com</sys_created_by><sys_created_on>2021-07-20 09:42:17</sys_created_on><sys_id>04fa1418872930109844fea9cebb35d5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_77754_dxc_sci.customer_information_user</sys_name><sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package><sys_policy/><sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope><sys_update_name>sys_user_role_04fa1418872930109844fea9cebb35d5</sys_update_name><sys_updated_by>bmorales6@dxc.com</sys_updated_by><sys_updated_on>2021-07-20 09:42:17</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>739310478</payload_hash>
+        <record_name>x_77754_dxc_sci.customer_information_user</record_name>
+        <reverted_from/>
+        <source>b66210dc87e530109844fea9cebb359c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-20 09:42:17</sys_created_on>
+        <sys_id>1cfad8dc872930109844fea9cebb35a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ac34b6a7c0000001</sys_recorded_at>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-20 09:42:17</sys_updated_on>
+        <type>Role</type>
+        <update_guid>44fad8dc8029301016b8eeebbc884ca3</update_guid>
+        <update_guid_history>44fad8dc8029301016b8eeebbc884ca3:739310478</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_77754_dxc_sci.customer_information_user">178b9050876930109844fea9cebb356e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-20 09:44:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>1ed0a48802604b1285ed34b19f14ac84</sys_id>
+        <sys_metadata>04fa1418872930109844fea9cebb35d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_77754_dxc_sci.customer_information_user</sys_name>
+        <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+        <sys_scope_delete display_value="">1133823e98e044b4bc1ce694ec749904</sys_scope_delete>
+        <sys_update_name>sys_user_role_04fa1418872930109844fea9cebb35d5</sys_update_name>
+        <sys_update_version display_value="sys_user_role_04fa1418872930109844fea9cebb35d5">1cfad8dc872930109844fea9cebb35a3</sys_update_version>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-20 09:44:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

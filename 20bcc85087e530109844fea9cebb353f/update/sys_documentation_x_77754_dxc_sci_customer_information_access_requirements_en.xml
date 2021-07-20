@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="access_requirements" label="Access requirements" language="en" table="x_77754_dxc_sci_customer_information">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>access_requirements</element>
+            <help/>
+            <hint/>
+            <label>Access requirements</label>
+            <language>en</language>
+            <name>x_77754_dxc_sci_customer_information</name>
+            <plural>Access requirements</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-20 10:15:35</sys_created_on>
+            <sys_id>409260dc876930109844fea9cebb3561</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Access requirements</sys_name>
+            <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+            <sys_update_name>sys_documentation_x_77754_dxc_sci_customer_information_access_requirements_en</sys_update_name>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-20 10:15:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

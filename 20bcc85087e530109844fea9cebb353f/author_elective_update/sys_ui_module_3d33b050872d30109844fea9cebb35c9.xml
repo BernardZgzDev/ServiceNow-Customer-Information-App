@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="DXC ServiceNow Customer Information">06cbd850876930109844fea9cebb352b</application>
+        <filter/>
+        <name>Areas</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_77754_dxc_sci.areas_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-20 11:28:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d33b050872d30109844fea9cebb35c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Areas</sys_name>
+        <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+        <sys_update_name>sys_ui_module_3d33b050872d30109844fea9cebb35c9</sys_update_name>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-20 11:28:21</sys_updated_on>
+        <table>x_77754_dxc_sci_areas</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</application>
+        <file_path/>
+        <instance_id>7ac404eddb535380536ad5b0cf961979</instance_id>
+        <instance_name>dev64707</instance_name>
+        <name>sys_ui_module_3d33b050872d30109844fea9cebb35c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="DXC ServiceNow Customer Information">06cbd850876930109844fea9cebb352b</application><filter/><name>Areas</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_77754_dxc_sci.areas_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>bmorales6@dxc.com</sys_created_by><sys_created_on>2021-07-20 11:28:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3d33b050872d30109844fea9cebb35c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Areas</sys_name><sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package><sys_policy/><sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope><sys_update_name>sys_ui_module_3d33b050872d30109844fea9cebb35c9</sys_update_name><sys_updated_by>bmorales6@dxc.com</sys_updated_by><sys_updated_on>2021-07-20 11:28:21</sys_updated_on><table>x_77754_dxc_sci_areas</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1684886332</payload_hash>
+        <record_name>Areas</record_name>
+        <reverted_from/>
+        <source>b66210dc87e530109844fea9cebb359c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-20 11:28:21</sys_created_on>
+        <sys_id>f933b050872d30109844fea9cebb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ac3ac86730000001</sys_recorded_at>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-20 11:28:21</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3533b050fb2d30106559c806818762cb</update_guid>
+        <update_guid_history>3533b050fb2d30106559c806818762cb:-1684886332</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-20 11:33:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>1e269e79f02f4e70988b036bed675f90</sys_id>
+        <sys_metadata>3d33b050872d30109844fea9cebb35c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Areas</sys_name>
+        <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+        <sys_scope_delete display_value="">1133823e98e044b4bc1ce694ec749904</sys_scope_delete>
+        <sys_update_name>sys_ui_module_3d33b050872d30109844fea9cebb35c9</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_3d33b050872d30109844fea9cebb35c9">f933b050872d30109844fea9cebb35cb</sys_update_version>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-20 11:33:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Project Reference" max_length="40" name="x_77754_dxc_sci_project_reference" type="collection">
+        <element label="Deployment ID" max_length="40" name="deployment_id" type="string"/>
+        <element label="DXC ServiceNow Customer" max_length="32" name="dxc_servicenow_customer" reference="x_77754_dxc_sci_customer_information" type="reference"/>
+        <element label="IWO" max_length="40" name="iwo" type="string"/>
+        <element label="Name" max_length="64" name="name" type="string"/>
+        <element label="PSA Name" max_length="40" name="psa_name" type="string"/>
+        <element label="SAP Name" max_length="40" name="sap_name" type="string"/>
+        <element label="Scope" max_length="40" name="scope" type="string"/>
+        <element label="WBS" max_length="40" name="wbs" type="string"/>
+        <index name="index">
+            <element name="dxc_servicenow_customer"/>
+        </index>
+    </element>
+</database>

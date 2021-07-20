@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="current_scope" table="x_77754_dxc_sci_customer_information" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>current_scope</element>
+            <name>x_77754_dxc_sci_customer_information</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-20 11:20:04</sys_created_on>
+            <sys_id>64517cd887e930109844fea9cebb352e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>current_scope</sys_name>
+            <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+            <sys_update_name>sys_choice_x_77754_dxc_sci_customer_information_current_scope</sys_update_name>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-20 11:20:04</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_scope</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Maintenance Services</label>
+            <language>en</language>
+            <name>x_77754_dxc_sci_customer_information</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-20 11:20:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7031fc1c87e930109844fea9cebb35d2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-20 12:34:49</sys_updated_on>
+            <value>ams</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_scope</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project</label>
+            <language>en</language>
+            <name>x_77754_dxc_sci_customer_information</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-20 11:20:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3251345c87e930109844fea9cebb3557</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-20 12:34:52</sys_updated_on>
+            <value>project</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_scope</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project and Application Managed Services</label>
+            <language>en</language>
+            <name>x_77754_dxc_sci_customer_information</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-20 11:20:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db61b0d887e930109844fea9cebb35e3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-20 12:34:55</sys_updated_on>
+            <value>project_ams</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Project Subscription" max_length="40" name="x_77754_dxc_sci_project_subscription" type="collection">
+        <element label="Allocated units" max_length="8" name="allocated_units" type="integer"/>
+        <element label="DXC ServiceNow Customer" max_length="32" name="dxc_servicenow_customer" reference="x_77754_dxc_sci_customer_information" type="reference"/>
+        <element label="Product code" max_length="40" name="product_code" type="string"/>
+        <element label="Product name" max_length="128" name="product_name" type="string"/>
+        <element label="Purchased units" max_length="8" name="purchased_units" type="integer"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="User" sequence="0" value="user"/>
+                <element inactive_on_update="false" label="Node" sequence="1" value="node"/>
+                <element inactive_on_update="false" label="Transactions" sequence="2" value="transactions"/>
+            </choice>
+        </element>
+        <element label="Valid from" max_length="40" name="valid_from" type="glide_date"/>
+        <element label="Valid to" max_length="40" name="valid_to" type="glide_date"/>
+        <index name="index">
+            <element name="dxc_servicenow_customer"/>
+        </index>
+    </element>
+</database>
