@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Area" max_length="40" name="x_77754_dxc_sci_area" type="collection">
-        <element label="Main contact" max_length="32" name="main_contact" reference="sys_user" type="reference"/>
+    <element label="Area" max_length="40" name="x_77754_dxc_sci_area" sizeclass="6" type="collection">
+        <element label="Main contact" max_length="40" name="main_contact" type="string"/>
         <element label="Name" max_length="64" name="name" type="string"/>
         <index name="index">
             <element name="main_contact"/>

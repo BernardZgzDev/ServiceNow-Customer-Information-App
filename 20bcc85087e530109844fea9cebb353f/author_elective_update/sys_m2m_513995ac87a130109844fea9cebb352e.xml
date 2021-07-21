@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="DELETE">
+        <from_table>x_77754_dxc_sci_customer_information</from_table>
+        <m2m_from_field>customer_information</m2m_from_field>
+        <m2m_from_label>Project Subscriptions</m2m_from_label>
+        <m2m_table>x_77754_dxc_sci_m2m_project_subs_customer_inf</m2m_table>
+        <m2m_to_field>project_subscription</m2m_to_field>
+        <m2m_to_label>Customer Informations</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-21 08:56:14</sys_created_on>
+        <sys_id>513995ac87a130109844fea9cebb352e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_77754_dxc_sci_m2m_project_subs_customer_inf</sys_name>
+        <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+        <sys_update_name>sys_m2m_513995ac87a130109844fea9cebb352e</sys_update_name>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-21 08:56:14</sys_updated_on>
+        <to_table>x_77754_dxc_sci_project_subscription</to_table>
+    </sys_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</application>
+        <file_path/>
+        <instance_id>7ac404eddb535380536ad5b0cf961979</instance_id>
+        <instance_name>dev64707</instance_name>
+        <name>sys_m2m_513995ac87a130109844fea9cebb352e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m"><sys_m2m action="INSERT_OR_UPDATE"><from_table>x_77754_dxc_sci_customer_information</from_table><m2m_from_field>customer_information</m2m_from_field><m2m_from_label>Project Subscriptions</m2m_from_label><m2m_table>x_77754_dxc_sci_m2m_project_subs_customer_inf</m2m_table><m2m_to_field>project_subscription</m2m_to_field><m2m_to_label>Customer Informations</m2m_to_label><sys_class_name>sys_m2m</sys_class_name><sys_created_by>bmorales6@dxc.com</sys_created_by><sys_created_on>2021-07-21 08:56:14</sys_created_on><sys_id>513995ac87a130109844fea9cebb352e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_77754_dxc_sci_m2m_project_subs_customer_inf</sys_name><sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package><sys_policy/><sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope><sys_update_name>sys_m2m_513995ac87a130109844fea9cebb352e</sys_update_name><sys_updated_by>bmorales6@dxc.com</sys_updated_by><sys_updated_on>2021-07-21 08:56:14</sys_updated_on><to_table>x_77754_dxc_sci_project_subscription</to_table></sys_m2m></record_update>]]></payload>
+        <payload_hash>305593034</payload_hash>
+        <record_name>x_77754_dxc_sci_m2m_project_subs_customer_inf</record_name>
+        <reverted_from/>
+        <source>b66210dc87e530109844fea9cebb359c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-21 08:56:16</sys_created_on>
+        <sys_id>400ad12087e130109844fea9cebb35d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ac847a64d0000001</sys_recorded_at>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-21 08:56:16</sys_updated_on>
+        <type>Many to Many Definition</type>
+        <update_guid>880ad120f0e13010d787be60a3597bd5</update_guid>
+        <update_guid_history>880ad120f0e13010d787be60a3597bd5:305593034</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-21 09:28:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_m2m">sys_m2m</sys_db_object>
+        <sys_id>6acea372c9d849f8970e6d6cd84cedb9</sys_id>
+        <sys_metadata>513995ac87a130109844fea9cebb352e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_77754_dxc_sci_m2m_project_subs_customer_inf</sys_name>
+        <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+        <sys_scope_delete display_value="">1133823e98e044b4bc1ce694ec749904</sys_scope_delete>
+        <sys_update_name>sys_m2m_513995ac87a130109844fea9cebb352e</sys_update_name>
+        <sys_update_version display_value="sys_m2m_513995ac87a130109844fea9cebb352e">400ad12087e130109844fea9cebb35d6</sys_update_version>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-21 09:28:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

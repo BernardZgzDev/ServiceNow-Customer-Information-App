@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="customer_information" label="DXC ServiceNow Customer Information" language="en" table="x_77754_dxc_sci_m2m_projects_customers">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>customer_information</element>
+            <help/>
+            <hint/>
+            <label>DXC ServiceNow Customer Information</label>
+            <language>en</language>
+            <name>x_77754_dxc_sci_m2m_projects_customers</name>
+            <plural>DXC ServiceNow Customer Informations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 10:17:47</sys_created_on>
+            <sys_id>8aace1ac876530109844fea9cebb358c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>DXC ServiceNow Customer Information</sys_name>
+            <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+            <sys_update_name>sys_documentation_x_77754_dxc_sci_m2m_projects_customers_customer_information_en</sys_update_name>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 10:19:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

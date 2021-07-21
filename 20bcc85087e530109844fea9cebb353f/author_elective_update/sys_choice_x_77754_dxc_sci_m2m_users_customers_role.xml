@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="role" table="x_77754_dxc_sci_m2m_users_customers" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>role</element>
+            <name>x_77754_dxc_sci_m2m_users_customers</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 09:50:21</sys_created_on>
+            <sys_id>d46665a8872530109844fea9cebb35e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>role</sys_name>
+            <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+            <sys_update_name>sys_choice_x_77754_dxc_sci_m2m_users_customers_role</sys_update_name>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 09:50:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Associate Consultant</label>
+            <language>en</language>
+            <name>x_77754_dxc_sci_m2m_users_customers</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 09:50:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>525669a8872530109844fea9cebb3552</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 09:50:21</sys_updated_on>
+            <value>ac</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Manager</label>
+            <language>en</language>
+            <name>x_77754_dxc_sci_m2m_users_customers</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 09:50:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a476e1a8872530109844fea9cebb3508</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 09:50:39</sys_updated_on>
+            <value>pm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solution Consultant</label>
+            <language>en</language>
+            <name>x_77754_dxc_sci_m2m_users_customers</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 10:04:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b58965a8872530109844fea9cebb35ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 10:04:07</sys_updated_on>
+            <value>sc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Service Delivery Manager</label>
+            <language>en</language>
+            <name>x_77754_dxc_sci_m2m_users_customers</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 09:51:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b86e5a8872530109844fea9cebb355c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 09:51:06</sys_updated_on>
+            <value>sdm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior Technical Consultant</label>
+            <language>en</language>
+            <name>x_77754_dxc_sci_m2m_users_customers</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 09:50:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff766d68872530109844fea9cebb3572</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 09:50:52</sys_updated_on>
+            <value>stc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Technical Consultant</label>
+            <language>en</language>
+            <name>x_77754_dxc_sci_m2m_users_customers</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 10:04:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68992920876530109844fea9cebb3576</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 10:04:18</sys_updated_on>
+            <value>tc</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

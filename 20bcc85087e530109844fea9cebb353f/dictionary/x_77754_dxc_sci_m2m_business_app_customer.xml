@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Customer m2m Business App" max_length="40" name="x_77754_dxc_sci_m2m_business_app_customer" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="Business Application" max_length="32" name="business_application" reference="cmdb_ci_business_app" type="reference"/>
+        <element attributes="encode_utf8=false" label="DXC ServiceNow Customer Information" max_length="32" name="customer_information" reference="x_77754_dxc_sci_customer_information" type="reference"/>
+        <index name="index">
+            <element name="business_application"/>
+        </index>
+        <index name="index2">
+            <element name="customer_information"/>
+        </index>
+    </element>
+</database>

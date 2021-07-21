@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="2f0a716887e530109844fea9cebb35c1" sys_domain="global" table="x_77754_dxc_sci_project_reference" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 11:17:43</sys_created_on>
+            <sys_id>c86af5a887e530109844fea9cebb3501</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77754_dxc_sci_project_reference" sys_domain="global" view="Default view">2f0a716887e530109844fea9cebb35c1</sys_ui_section>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 11:17:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dxc_servicenow_customer</element>
+            <position>1</position>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 11:17:43</sys_created_on>
+            <sys_id>4c6af5a887e530109844fea9cebb3501</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77754_dxc_sci_project_reference" sys_domain="global" view="Default view">2f0a716887e530109844fea9cebb35c1</sys_ui_section>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 11:17:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sap_name</element>
+            <position>2</position>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 11:17:43</sys_created_on>
+            <sys_id>cc6af5a887e530109844fea9cebb3501</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77754_dxc_sci_project_reference" sys_domain="global" view="Default view">2f0a716887e530109844fea9cebb35c1</sys_ui_section>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 11:17:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>psa_name</element>
+            <position>3</position>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 11:17:43</sys_created_on>
+            <sys_id>406af5a887e530109844fea9cebb3502</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77754_dxc_sci_project_reference" sys_domain="global" view="Default view">2f0a716887e530109844fea9cebb35c1</sys_ui_section>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 11:17:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 11:17:43</sys_created_on>
+            <sys_id>c06af5a887e530109844fea9cebb3502</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77754_dxc_sci_project_reference" sys_domain="global" view="Default view">2f0a716887e530109844fea9cebb35c1</sys_ui_section>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 11:17:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>iwo</element>
+            <position>5</position>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 11:17:43</sys_created_on>
+            <sys_id>446af5a887e530109844fea9cebb3502</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77754_dxc_sci_project_reference" sys_domain="global" view="Default view">2f0a716887e530109844fea9cebb35c1</sys_ui_section>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 11:17:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wbs</element>
+            <position>6</position>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 11:17:43</sys_created_on>
+            <sys_id>c46af5a887e530109844fea9cebb3502</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77754_dxc_sci_project_reference" sys_domain="global" view="Default view">2f0a716887e530109844fea9cebb35c1</sys_ui_section>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 11:17:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>scope</element>
+            <position>7</position>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 11:17:43</sys_created_on>
+            <sys_id>486af5a887e530109844fea9cebb3502</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77754_dxc_sci_project_reference" sys_domain="global" view="Default view">2f0a716887e530109844fea9cebb35c1</sys_ui_section>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 11:17:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>deployment_id</element>
+            <position>8</position>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 11:17:43</sys_created_on>
+            <sys_id>c86af5a887e530109844fea9cebb3502</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77754_dxc_sci_project_reference" sys_domain="global" view="Default view">2f0a716887e530109844fea9cebb35c1</sys_ui_section>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 11:17:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_77754_dxc_sci_project_reference</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bmorales6@dxc.com</sys_created_by>
+            <sys_created_on>2021-07-21 11:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f0a716887e530109844fea9cebb35c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_77754_dxc_sci_project_reference</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+            <sys_update_name>sys_ui_section_2f0a716887e530109844fea9cebb35c1</sys_update_name>
+            <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+            <sys_updated_on>2021-07-21 11:16:19</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

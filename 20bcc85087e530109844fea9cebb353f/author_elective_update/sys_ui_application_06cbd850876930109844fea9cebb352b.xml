@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>DXC ServiceNow Customer Information</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-20 09:45:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>06cbd850876930109844fea9cebb352b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DXC ServiceNow Customer Information</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+        <sys_update_name>sys_ui_application_06cbd850876930109844fea9cebb352b</sys_update_name>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-20 09:45:58</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</application>
+        <file_path/>
+        <instance_id>7ac404eddb535380536ad5b0cf961979</instance_id>
+        <instance_name>dev64707</instance_name>
+        <name>sys_ui_application_06cbd850876930109844fea9cebb352b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>DXC ServiceNow Customer Information</name><order/><roles/><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>bmorales6@dxc.com</sys_created_by><sys_created_on>2021-07-20 09:45:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>06cbd850876930109844fea9cebb352b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>DXC ServiceNow Customer Information</sys_name><sys_overrides/><sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package><sys_policy/><sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope><sys_update_name>sys_ui_application_06cbd850876930109844fea9cebb352b</sys_update_name><sys_updated_by>bmorales6@dxc.com</sys_updated_by><sys_updated_on>2021-07-20 09:45:58</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>-1730680722</payload_hash>
+        <record_name>DXC ServiceNow Customer Information</record_name>
+        <reverted_from/>
+        <source>b66210dc87e530109844fea9cebb359c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-20 09:45:58</sys_created_on>
+        <sys_id>86cbd850876930109844fea9cebb352d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ac34ec8400000001</sys_recorded_at>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-20 09:45:58</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>cecbd850c8693010f65662a9feea1b2c</update_guid>
+        <update_guid_history>cecbd850c8693010f65662a9feea1b2c:-1730680722</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-21 11:41:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>151e0ebf6c674546b3c90568510796c4</sys_id>
+        <sys_metadata>06cbd850876930109844fea9cebb352b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DXC ServiceNow Customer Information</sys_name>
+        <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+        <sys_scope_delete display_value="">1133823e98e044b4bc1ce694ec749904</sys_scope_delete>
+        <sys_update_name>sys_ui_application_06cbd850876930109844fea9cebb352b</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_06cbd850876930109844fea9cebb352b">86cbd850876930109844fea9cebb352d</sys_update_version>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-21 11:41:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

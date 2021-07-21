@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Customer Information" max_length="40" name="x_77754_dxc_sci_customer_information" sizeclass="0" type="collection">
         <element label="Access requirements" max_length="512" name="access_requirements" type="string"/>
-        <element label="Account delivery lead" max_length="32" name="account_delivery_lead" reference="sys_user" reference_qual="company=2cf82cd887a930109844fea9cebb3558^EQ" reference_qual_condition="company=2cf82cd887a930109844fea9cebb3558^EQ" type="reference"/>
-        <element label="Account general manager" max_length="32" name="account_general_manager" reference="sys_user" reference_qual="company=2cf82cd887a930109844fea9cebb3558^EQ" reference_qual_condition="company=2cf82cd887a930109844fea9cebb3558^EQ" type="reference"/>
-        <element label="Account run lead(s)" max_length="40" name="account_run_leads" reference="sys_user" reference_qual="company=2cf82cd887a930109844fea9cebb3558^EQ" reference_qual_condition="company=2cf82cd887a930109844fea9cebb3558^EQ" type="glide_list"/>
+        <element label="Account Delivery Lead" max_length="40" name="account_delivery_lead" reference_qual="company=2cf82cd887a930109844fea9cebb3558^EQ" reference_qual_condition="company=2cf82cd887a930109844fea9cebb3558^EQ" type="string"/>
+        <element label="Account General Manager" max_length="40" name="account_general_manager" reference_qual="company=2cf82cd887a930109844fea9cebb3558^EQ" reference_qual_condition="company=2cf82cd887a930109844fea9cebb3558^EQ" type="string"/>
+        <element label="Account Run Lead(s)" max_length="40" name="account_run_leads" reference_qual="company=2cf82cd887a930109844fea9cebb3558^EQ" reference_qual_condition="company=2cf82cd887a930109844fea9cebb3558^EQ" type="string"/>
         <element label="AMS Hours" max_length="8" name="ams_hours" type="integer"/>
         <element choice="1" label="AMS Model" max_length="40" name="ams_model" type="choice">
             <choice>
@@ -18,7 +18,7 @@
             </choice>
         </element>
         <element label="Client-managed Collaboration Spaces" max_length="2048" name="client_managed_collaboration_spaces" type="url"/>
-        <element label="Client since" max_length="40" name="client_since" type="glide_date"/>
+        <element label="Client since" max_length="10" name="client_since" type="glide_date"/>
         <element label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
         <element choice="3" default="ams" label="Current scope" max_length="40" name="current_scope" type="choice">
             <choice>
@@ -31,8 +31,8 @@
         <element label="DXC ServiceNow PM / SDM" max_length="32" name="dxc_servicenow_pm_sdm" reference="sys_user" type="reference"/>
         <element label="Finance Forecast Procedure" max_length="512" name="finance_forecast_procedure" type="string"/>
         <element label="Forecast / Actuals / Publishing" max_length="40" name="forecast_actuals_publishing" type="string"/>
-        <element label="IWO Approver" max_length="32" name="iwo_approver" reference="sys_user" reference_qual="company=2cf82cd887a930109844fea9cebb3558^EQ" reference_qual_condition="company=2cf82cd887a930109844fea9cebb3558^EQ" type="reference"/>
-        <element label="Key Client Executives" max_length="4000" name="key_client_executives" reference="sys_user" type="glide_list"/>
+        <element label="IWO Approver" max_length="40" name="iwo_approver" reference_qual="company=2cf82cd887a930109844fea9cebb3558^EQ" reference_qual_condition="company=2cf82cd887a930109844fea9cebb3558^EQ" type="string"/>
+        <element label="Key Client Executives" max_length="4000" name="key_client_executives" type="string"/>
         <element choice="1" default="resell" label="Licensing model" max_length="40" name="licensing_model" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Client owned" sequence="0" value="client_owned"/>
@@ -43,17 +43,17 @@
         <element label="Meeting Procedures" max_length="512" name="meeting_procedures" type="string"/>
         <element label="MS Teams" max_length="2048" name="ms_teams" type="url"/>
         <element label="Notes" max_length="40" name="notes" type="journal_input"/>
-        <element label="Notes list" max_length="4096" name="notes_list" type="journal_list"/>
+        <element dependent="notes" dependent_on_field="notes" label="Notes list" max_length="4096" name="notes_list" type="journal_list" use_dependent_field="true"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Other Delivery Leads" max_length="4000" name="other_delivery_leads" reference="sys_user" type="glide_list"/>
+        <element label="Other Delivery Leads" max_length="4000" name="other_delivery_leads" type="string"/>
         <element label="Other DXC Area" max_length="40" name="other_dxc_area" type="string"/>
-        <element label="Other stakeholders of interest" max_length="32" name="other_stakeholders_of_interest" reference="sys_user" type="reference"/>
+        <element label="Other stakeholders of interest" max_length="40" name="other_stakeholders_of_interest" type="string"/>
         <element label="PDL" max_length="40" name="pdl" type="string"/>
         <element label="SDFC Support" max_length="40" name="sdfc_support" type="string"/>
         <element label="ServiceNow Account Manager Email" max_length="40" name="servicenow_account_manager_email" type="string"/>
         <element label="ServiceNow Account Manager Name" max_length="40" name="servicenow_account_manager_name" type="string"/>
         <element label="Sharepoint" max_length="2048" name="sharepoint" type="url"/>
-        <element choice="3" label="Status" max_length="32" name="status" type="string">
+        <element choice="3" label="Status" max_length="40" name="status" type="string">
             <choice>
                 <element inactive_on_update="false" label="In progress" sequence="0" value="in_progress"/>
                 <element inactive_on_update="false" label="In warranty" sequence="1" value="in_warranty"/>
