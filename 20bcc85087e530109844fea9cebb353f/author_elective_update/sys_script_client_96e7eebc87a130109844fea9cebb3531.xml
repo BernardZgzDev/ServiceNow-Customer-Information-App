@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Dates validation onSubmit</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   
+	try {
+		
+		var validFrom = g_form.getValue('valid_from');
+		var validTo = g_form.getValue('valid_to');
+		
+		jslog('BAMN LOGS: ' + validFrom);
+		jslog('BAMN LOGS: ' + validTo);
+		
+		if( validFrom && validTo ) {
+			
+			var validateDates = new StartEndDateValidation();
+			
+			var isValid = validateDates.validateStartDateBeforeEndDate(validFrom, validTo, true);
+			
+			g_form.addInfoMessage( isValid );			
+		}
+		
+		
+		
+	} catch ( err ) {
+		
+		g_form.addErrorMessage('Runtime error: ' + err.name + ', ' + err.message);
+		return false;
+	}    
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-22 09:37:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>96e7eebc87a130109844fea9cebb3531</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Dates validation onSubmit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+        <sys_update_name>sys_script_client_96e7eebc87a130109844fea9cebb3531</sys_update_name>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-22 09:54:59</sys_updated_on>
+        <table>x_77754_dxc_sci_project_subscription</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</application>
+        <file_path/>
+        <instance_id>7ac404eddb535380536ad5b0cf961979</instance_id>
+        <instance_name>dev64707</instance_name>
+        <name>sys_script_client_96e7eebc87a130109844fea9cebb3531</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;sys_created_on&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Dates validation onSubmit&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   
+	try {
+		
+		var validFrom = g_form.getValue('valid_from');
+		var validTo = g_form.getValue('valid_to');
+		
+		jslog('BAMN LOGS: ' + validFrom);
+		jslog('BAMN LOGS: ' + validTo);
+		
+		if( validFrom &amp;&amp; validTo ) {
+			
+			var validateDates = new StartEndDateValidation();
+			
+			var isValid = validateDates.validateStartDateBeforeEndDate(validFrom, validTo, true);
+			
+			g_form.addInfoMessage( isValid );			
+		}
+		
+		
+		
+	} catch ( err ) {
+		
+		g_form.addErrorMessage('Runtime error: ' + err.name + ', ' + err.message);
+		return false;
+	}    
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;bmorales6@dxc.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-22 09:37:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;96e7eebc87a130109844fea9cebb3531&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Dates validation onSubmit&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci"&gt;20bcc85087e530109844fea9cebb353f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DXC ServiceNow Customer Information (New)"&gt;20bcc85087e530109844fea9cebb353f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_96e7eebc87a130109844fea9cebb3531&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;bmorales6@dxc.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-22 09:54:59&lt;/sys_updated_on&gt;&lt;table&gt;x_77754_dxc_sci_project_subscription&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1424590853</payload_hash>
+        <record_name>Dates validation onSubmit</record_name>
+        <reverted_from/>
+        <source>89d56e60876d30109844fea9cebb3550</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-22 09:54:59</sys_created_on>
+        <sys_id>bd017230872530109844fea9cebb351b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17acda3c41d0000001</sys_recorded_at>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-22 09:54:59</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b50172303d25301038343d9c28645b1b</update_guid>
+        <update_guid_history>b50172303d25301038343d9c28645b1b:1424590853,77c0fafcf9e13010a51a673ae72cba43:-693788423,eb90bafc79e1301034c0862e535fa86c:1814772050,ae00f67c11e13010dbeb8a18d469bf5b:-1321011797,eeff2af8e0e13010128c41c0912353d2:-775644127,1b2f6e3c2de13010f89c5744c642320d:1202381785,90dee6f8e1e1301080d908de9a8c1e1e:-907698251,057ee2b83fe13010b4cb987b871a4292:1348965360,23cd62b8c4e130105756217a0adeee08:-315742171,e01d6a382ee130106724e1e1ce0f4191:-1328037988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-22 10:14:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>5c1408306b904c5ea7e8702d0e3d2dc4</sys_id>
+        <sys_metadata>96e7eebc87a130109844fea9cebb3531</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dates validation onSubmit</sys_name>
+        <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+        <sys_parent display_value="Project Subscription">1c4da9ec876530109844fea9cebb3565</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+        <sys_scope_delete display_value="">1133823e98e044b4bc1ce694ec749904</sys_scope_delete>
+        <sys_update_name>sys_script_client_96e7eebc87a130109844fea9cebb3531</sys_update_name>
+        <sys_update_version display_value="sys_script_client_96e7eebc87a130109844fea9cebb3531">bd017230872530109844fea9cebb351b</sys_update_version>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-22 10:14:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

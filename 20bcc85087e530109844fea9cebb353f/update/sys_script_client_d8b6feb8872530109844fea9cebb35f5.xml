@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Created by: Bernard Morales, 2021.07.22.&#13;
+Returns true if 'valid_to' is equal or after at 'valid_from'.&#13;
+If false is returned then form submission is canceled.</description>
+        <field>allocated_units</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages>date_validation_msg</messages>
+        <name>Dates validation onSubmit</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+
+    var validFrom = g_form.getValue('valid_from');
+    var validTo = g_form.getValue('valid_to');
+    var userFormat = g_user_date_format; // Retrieve date format preference for the currently log in user
+	
+	g_form.clearMessages();
+
+    try {
+
+        if ( !validFrom || !validTo ) { // If one date field is empty we can continue with submission
+            return true;
+        }
+
+        var validFromMs = getDateFromFormat(validFrom, userFormat); // This global method converts valid_from value to milliseconds
+        var validToMs = getDateFromFormat(validTo, userFormat);
+
+        if ( validFromMs > validToMs ) {
+			
+			var dateLabels = [ g_form.getLabelOf('valid_from'), g_form.getLabelOf('valid_to') ]; // Array containing labels of our date fields	
+			var msg = getMessage('date_validation_msg').withValues( dateLabels ); // Get UI Message and interpolate values with previous declared array
+           
+			g_form.showErrorBox('valid_to', msg);			
+			return false;
+        }
+
+    } catch (err) {
+
+        g_form.addErrorMessage('Runtime error: ' + err);
+        return false;
+    }
+	
+	return true;	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>bmorales6@dxc.com</sys_created_by>
+        <sys_created_on>2021-07-22 10:32:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d8b6feb8872530109844fea9cebb35f5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Dates validation onSubmit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
+        <sys_update_name>sys_script_client_d8b6feb8872530109844fea9cebb35f5</sys_update_name>
+        <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
+        <sys_updated_on>2021-07-22 11:28:56</sys_updated_on>
+        <table>x_77754_dxc_sci_project_subscription</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
