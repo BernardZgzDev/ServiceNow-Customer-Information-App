@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Customer m2m Delivery Team" max_length="40" name="x_77754_dxc_sci_m2m_users_customers" sizeclass="0" type="collection">
+    <element label="Customer m2m Delivery Team" max_length="40" name="x_77754_dxc_sci_m2m_users_customers" sizeclass="3" type="collection">
         <element label="Currently involved?" max_length="40" name="currently_involved" type="boolean"/>
         <element attributes="encode_utf8=false" label="DXC ServiceNow Customer Information" max_length="32" name="customer_information" reference="x_77754_dxc_sci_customer_information" type="reference"/>
         <element choice="1" label="Role" max_length="40" name="role" type="choice">

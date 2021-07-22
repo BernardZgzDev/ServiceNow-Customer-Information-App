@@ -12,18 +12,27 @@ If Current scope field is AMS then AMS Details section is displayed.</descriptio
         <name>Display AMS Section</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-    if (isLoading || newValue === '') {
+    
+	if ( newValue === '' ) {
         return;
     }
+	
+	try {
+		
+		var currentScope =  g_form.getValue('current_scope');
+		var isShown = false;
 
-    var currentScope =  g_form.getValue('current_scope');
-    var isShown = false;
+		if ( currentScope === 'ams') {
 
-    if ( currentScope === 'ams') {
-
-        isShown = true;
-    }
-    g_form.setSectionDisplay('ams_details', isShown);
+			isShown = true;
+		}
+		g_form.setSectionDisplay('ams_details', isShown);
+	
+	} catch ( err ) {
+		
+		g_form.addErrorMessage('Runtime err: ' + err );
+		return;
+	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>bmorales6@dxc.com</sys_created_by>
@@ -31,7 +40,7 @@ If Current scope field is AMS then AMS Details section is displayed.</descriptio
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5080cee0872930109844fea9cebb357e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Display AMS Section</sys_name>
         <sys_overrides/>
         <sys_package display_value="DXC ServiceNow Customer Information (New)" source="x_77754_dxc_sci">20bcc85087e530109844fea9cebb353f</sys_package>
@@ -39,7 +48,7 @@ If Current scope field is AMS then AMS Details section is displayed.</descriptio
         <sys_scope display_value="DXC ServiceNow Customer Information (New)">20bcc85087e530109844fea9cebb353f</sys_scope>
         <sys_update_name>sys_script_client_5080cee0872930109844fea9cebb357e</sys_update_name>
         <sys_updated_by>bmorales6@dxc.com</sys_updated_by>
-        <sys_updated_on>2021-07-21 12:17:33</sys_updated_on>
+        <sys_updated_on>2021-07-22 12:07:50</sys_updated_on>
         <table>x_77754_dxc_sci_customer_information</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
